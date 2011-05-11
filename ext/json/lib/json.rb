@@ -43,7 +43,7 @@
 #
 # <tt>JSON.generate</tt> only allows objects or arrays to be converted 
 # to JSON syntax. While <tt>to_json</tt> accepts many Ruby classes 
-# even though it only acts a proxy to <tt>to_s</tt> in most circumstances:
+# even though it only acts a method for serialization:
 #
 #   require 'json'
 #
